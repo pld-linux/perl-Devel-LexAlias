@@ -4,12 +4,12 @@
 Summary:	Devel::LexAlias - alias lexical variables
 #Summary(pl.UTF-8):	
 Name:		perl-Devel-LexAlias
-Version:	0.04
-Release:	2
+Version:	0.05
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Devel/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7fe986f50b467fa8575a67f0729fbb1d
+# Source0-md5:	1a4f70dff1a47b3eb96bdeac50db2ec5
 URL:		http://search.cpan.org/dist/Devel-LexAlias/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc Changes
 %{perl_vendorarch}/Devel/*.pm
 %dir %{perl_vendorarch}/auto/Devel/LexAlias
 %{perl_vendorarch}/auto/Devel/LexAlias/*.bs
