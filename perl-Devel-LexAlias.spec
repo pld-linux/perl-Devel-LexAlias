@@ -45,6 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes
 %{perl_vendorarch}/Devel/*.pm
 %dir %{perl_vendorarch}/auto/Devel/LexAlias
-%{perl_vendorarch}/auto/Devel/LexAlias/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Devel/LexAlias/*.so
 %{_mandir}/man3/*
