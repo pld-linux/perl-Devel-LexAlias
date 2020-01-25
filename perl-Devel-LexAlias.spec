@@ -1,6 +1,5 @@
 %define		pdir	Devel
 %define		pnam	LexAlias
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::LexAlias - alias lexical variables
 #Summary(pl.UTF-8):	
 Name:		perl-Devel-LexAlias
