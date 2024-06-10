@@ -11,7 +11,7 @@ Version:	0.05
 Release:	14
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Devel/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Devel/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1a4f70dff1a47b3eb96bdeac50db2ec5
 URL:		https://metacpan.org/dist/Devel-LexAlias
 BuildRequires:	perl-ExtUtils-MakeMaker
@@ -29,7 +29,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Devel::LexAlias provides the ability to alias a lexical variable in a
 subroutines scope to one of your choosing.
 
-%description
+%description -l pl.UTF-8
 Devel::LexAlias umożliwia tworzenie wybranych aliasów w kontekście
 procedury dla zmiennych leksykalnych.
 
