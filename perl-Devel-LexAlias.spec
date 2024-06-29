@@ -8,7 +8,7 @@ Summary:	Devel::LexAlias - alias lexical variables
 Summary(pl.UTF-8):	Devel::LexAlias - aliasy dla zmiennych leksykalnych
 Name:		perl-Devel-LexAlias
 Version:	0.05
-Release:	14
+Release:	15
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/Devel/%{pdir}-%{pnam}-%{version}.tar.gz
